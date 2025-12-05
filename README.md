@@ -15,8 +15,7 @@
 
 **Desarrollado por:**
 
-| :--- | :--- |
-| **Chin Chan Anna Sofia** | Developer |
+| **Chin Chan Anna Sofia** |
 
 </div>
 

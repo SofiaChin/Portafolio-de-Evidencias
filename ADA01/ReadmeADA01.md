@@ -1,13 +1,30 @@
-# ADA 01: Analizador de Expresiones Aritméticas (Pilas)
+<div align="center">
 
-## Descripción
-En esta actividad se desarrolló una aplicación en C++ que utiliza la estructura de datos lineal **Pila (Stack)**. El objetivo principal fue convertir expresiones matemáticas de notación infija (la estándar) a notación postfija (Polaca Inversa) para facilitar su evaluación por computadora.
+# 🥞 ADA 01: Analizador de Expresiones (Pilas)
 
-El programa lee un archivo `infijas.txt`, procesa cada línea respetando la jerarquía de operadores (potencias, multiplicaciones, sumas) y paréntesis, y finalmente evalúa la expresión matemática.
+<img src="https://img.shields.io/badge/Language-C%2B%2B-00599C?style=flat-square&logo=c%2B%2B" />
+<img src="https://img.shields.io/badge/Topic-Stack%20%2F%20Pilas-orange?style=flat-square" />
+<img src="https://img.shields.io/badge/Algorithm-Shunting%20Yard-blueviolet?style=flat-square" />
 
-## Contenido del Directorio
-* **Problema01:** Contiene el código fuente `InfijoAPostfijoApp.cpp` y el archivo de entrada `infijas.txt`.
+</div>
 
-## Reflexión Personal
-* **¿Qué aprendí?**: (Escribe aquí sobre el funcionamiento LIFO - Last In First Out de las pilas).
-* **Problemas y soluciones**: (Ejemplo: Manejar los paréntesis de apertura y cierre correctamente).
+---
+
+## 📄 Descripción
+Software desarrollado para la conversión y evaluación de expresiones matemáticas. Transforma notación **Infija** (común) a **Postfija** (Polaca Inversa) y calcula el resultado utilizando una estructura de datos LIFO (Last In, First Out).
+
+## 💻 Detalles Técnicos
+* **Entrada:** Lectura de archivo `infijas.txt`.
+* **Proceso:** Uso de `std::stack` para ordenamiento de operadores.
+* **Salida:** Evaluación numérica de la expresión.
+
+## 📂 Estructura
+| Archivo | Descripción |
+| :--- | :--- |
+| `InfijoAPostfijoApp.cpp` | Código fuente principal. |
+| `infijas.txt` | Dataset de pruebas matemáticas. |
+
+## 🧠 Reflexión Personal
+> **Aprendizaje:** (Aquí explica cómo entendiste que la pila "apila" los operadores hasta que se necesita usarlos).
+>
+> **Reto:** (Aquí menciona si te costó manejar los paréntesis anidados).

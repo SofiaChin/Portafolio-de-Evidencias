@@ -15,10 +15,8 @@
 
 **Desarrollado por:**
 
-| 👨‍💻 Integrante | 🆔 Rol |
 | :--- | :--- |
 | **Chin Chan Anna Sofia** | Developer |
-| **Paredes Vazquez Ian** | Developer |
 
 </div>
 

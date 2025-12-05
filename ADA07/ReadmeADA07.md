@@ -32,9 +32,8 @@ El proyecto se divide en dos partes: la construcción base del árbol mediante i
 **Aprendizajes:**
 
 
-[Image of Binary Search Tree structure]
-
 Esta práctica consolidó mi entendimiento de la **recursividad**. Fue fascinante ver cómo una función de 4 líneas puede recorrer una estructura compleja completa. También aprendí la importancia del balanceo; si insertamos datos ordenados (1, 2, 3...) el árbol se degenera en una lista, perdiendo su eficiencia.
 
 **Retos Enfrentados:**
 La visualización mental de la recursión (el "stack trace") fue difícil. Entender cuándo una función termina y regresa el control a su nodo "padre" nos costó trabajo al principio, especialmente en los recorridos PostOrden. Usar diagramas en papel para seguir la ejecución paso a paso fue vital para depurar el código.
+

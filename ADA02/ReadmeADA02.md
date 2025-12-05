@@ -1,11 +1,33 @@
-# ADA 02: Manejo de Memoria y Apuntadores en C
+<div align="center">
 
-## Descripción
-El objetivo de esta actividad fue reforzar los conocimientos sobre el manejo de memoria en lenguaje C, un paso fundamental antes de construir estructuras de datos complejas. Se trabajaron conceptos como punteros, paso de parámetros por referencia y asignación dinámica de memoria.
+# 💾 ADA 02: Memoria Dinámica y Apuntadores
 
-## Contenido del Directorio
-* **Problema01:** Contiene el código fuente `ADA02.c` donde se implementan las funciones solicitadas.
+<img src="https://img.shields.io/badge/Language-C-A8B9CC?style=flat-square&logo=c" />
+<img src="https://img.shields.io/badge/Topic-Pointers-red?style=flat-square" />
+<img src="https://img.shields.io/badge/Concept-Memory%20Allocation-critical?style=flat-square" />
 
-## Reflexión Personal
-* **¿Qué aprendí?**: (Menciona la diferencia entre una variable estática y un puntero).
-* **Problemas y soluciones**: (Ejemplo: Entender cómo acceder al valor de una variable a través de su dirección de memoria).
+</div>
+
+---
+
+## 📄 Descripción Técnica
+Esta práctica se centró en la manipulación de bajo nivel de la memoria RAM. A diferencia de lenguajes de alto nivel, en C debemos gestionar manualmente la asignación y liberación de recursos.
+
+Realizamos ejercicios intensivos sobre **Aritmética de Punteros**, entendiendo cómo navegar a través de arreglos simplemente incrementando direcciones de memoria, y practicamos el paso de parámetros por referencia para modificar variables fuera del alcance local de una función.
+
+## 💻 Competencias Adquiridas
+* Uso de `malloc` y `free` para gestión del **Heap**.
+* Diferenciación entre el operador de dirección `&` y de indirección `*`.
+* Creación de estructuras (`struct`) dinámicas.
+
+## 📂 Estructura de Archivos
+| Archivo | Función |
+| :--- | :--- |
+| `ADA02.c` | Código fuente con ejercicios de punteros y arreglos dinámicos. |
+
+## 🧠 Reflexión y Análisis Personal
+**Aprendizajes:**
+Entendí que un arreglo en C es básicamente un puntero al primer elemento del bloque de memoria. Esto cambió mi forma de ver las matrices, ya que ahora entiendo que acceder a `arr[i]` es internamente `*(arr + i)`. La eficiencia de pasar punteros a funciones en lugar de copiar estructuras grandes fue una gran lección de optimización.
+
+**Retos Enfrentados:**
+El concepto de "fuga de memoria" (Memory Leak) fue algo nuevo. Tuvimos problemas donde el programa se cerraba inesperadamente (Segmentation Fault) por intentar acceder a punteros que ya habían sido liberados o que no estaban inicializados (`NULL`). Aprendimos a ser disciplinados siempre igualando a NULL después de un `free`.
